@@ -1,7 +1,5 @@
 .to-do__form {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-block-start: 100px;
+  gap: 12px;
+  margin-top: 40px;
 }

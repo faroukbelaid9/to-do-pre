@@ -1,11 +1,14 @@
 .to-do__item-button {
-  flex-shrink: 0;
-  inline-size: 25px;
-  aspect-ratio: 1/1;
-  cursor: pointer;
+  width: 28px;
+  height: 28px;
   border: none;
-  padding: 0;
   background-color: transparent;
-  background-position: center;
-  background-repeat: no-repeat;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.to-do__item-button:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }

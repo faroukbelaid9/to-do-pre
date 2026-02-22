@@ -1,8 +1,7 @@
 .to-do__item-text {
   flex-grow: 1;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 18px;
+  font-weight: 600;
   color: #fff;
-  padding-inline-end: 50px;
+  outline: none;
 }
